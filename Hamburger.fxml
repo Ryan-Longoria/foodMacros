@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="414.0" prefWidth="448.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HamburgerController">
+   <children>
+      <Button fx:id="previous" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#previousClick" text="Previous" />
+      <TextField fx:id="burger" alignment="CENTER" editable="false" layoutX="149.0" layoutY="14.0" text="Hamburger" />
+      <TextArea fx:id="info" editable="false" layoutX="10.0" layoutY="53.0" prefHeight="346.0" prefWidth="426.0" text="Whataburger's Original Whataburger (1 burger)&#10;&#10;Calories: 590&#10;Carbohydrates: 63g&#10;Protein: 29g&#10;Total fat: 25g&#10;&#10;Ingredients: Large Bun: Unbleached enriched flour (wheat flour, malted &#10;barley flour, niacin, reduced iron, thiamin mononitrate, riboflavin, folic acid), &#10;water, high fructose corn syrup, soybean oil, contains 2% or less of each of &#10;the following: yeast, wheat gluten, salt, dough conditioners (contains one or&#10;more of the following: sodium stearoyl lactylate, calcium stearoyl lactylate,&#10;monoglycerides, mono- and diglycerides, distilled monoglycerides, calcium &#10;peroxide, calcium iodate, datem, ethoxylated mono- and diglycerides, &#10;enzymes, ascorbic acid), calcium sulfate, calcium carbonate, ammonium &#10;sulfate, sorbic acid, soy flour, monocalcium phosphate, soy lecithin, and &#10;calcium propionate (to retard spoilage). May also contain grain vinegar, &#10;cornstarch, citric acid, and potassium iodate, and calcium phosphate. &#10;Contains: Wheat, Soy. Bun Oil: Soybean oil, soy lecithin, ..." />
+   </children>
+</AnchorPane>

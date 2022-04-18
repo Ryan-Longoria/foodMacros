@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="414.0" prefWidth="448.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PizzaController">
+   <children>
+      <Button fx:id="previous" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#previousClick" text="Previous" />
+      <TextField fx:id="pizza" alignment="CENTER" editable="false" layoutX="149.0" layoutY="14.0" text="Pizza" />
+      <TextArea fx:id="info" editable="false" layoutX="14.0" layoutY="61.0" prefHeight="346.0" prefWidth="418.0" text="Pizza Hut 12&quot; Medium Pan Pepperoni and Cheese Pizza (1 slice)&#10;&#10;Calories: 250&#10;Carbohydrates: 26g&#10;Protein: 11g&#10;Total fat: 12g&#10;&#10;Ingredients: &#10;pan dough: Enriched bleached wheat flour (bleached flour, malted barley &#10;flour, niacin, ferrous sulfate, thiamin mononitrate, riboflavin, folic acid), &#10;water, yeast, salt, sugar, soybean and/or cottonseed oil, whey, may contain &#10;2% or less of enzymes and/or datem, vital wheat gluten, potassium sorbate &#10;(preservative), ascorbic acid, sodium stearoyl lactylate. cheese: Part skim &#10;mozzarella cheese (pasteurized milk, cheese cultures, salt, enzymes), &#10;modified food starch, whey protein concentrate, non- fat milk, sodium &#10;propionate (added as a preservative). sauce: Tomato paste, water, salt, &#10;spices, garlic powder, and citric acid. pepperoni: Pork, beef, salt, spices, &#10;water, dextrose, oleoresin of paprika, flavorings, lactic acid starter culture, &#10;sodium nitrite, bha, bht, citric acid." />
+   </children>
+</AnchorPane>

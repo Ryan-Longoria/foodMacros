@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="414.0" prefWidth="448.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InfoController">
+   <children>
+      <TextField fx:id="infosect" alignment="CENTER" editable="false" layoutX="149.0" layoutY="14.0" text="Information Section" />
+      <Button fx:id="home" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#homeClick" text="Home" />
+      <TextArea fx:id="desc" editable="false" layoutX="13.0" layoutY="72.0" prefHeight="325.0" prefWidth="420.0" text="Calories are a unit of energy. Food and drinks are often categorized by the &#10;amount of calories they have. For example, an apple typically holds 95 &#10;calories while a pepperoni and cheese pizza from Pizza Hut will typically &#10;hold 250-380 calories. Your body needs calories for energy, but eating too &#10;many calories may lead to weight gain if you do not burn enoughcalories &#10;through exercise. &#10;&#10;Macronutrients, or macros, are a list of nutrients that are bodyneeds on a &#10;daily basis to maintain good health. The 3 nutrients that I will focus on &#10;within this application are carbohydrates, protein, and fats. Carbohydrates &#10;are the main energy source of your body. Protein allows your body to grow &#10;and build/repair tissues which comes in handy when you have sore muscles &#10;or have some type of injury. Fat allows you to store energy, but consuming &#10;the wrong type of fat too much can lead to weightgain. " />
+   </children>
+</AnchorPane>

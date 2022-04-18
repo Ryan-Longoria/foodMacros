@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="414.0" prefWidth="448.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CalMacController">
+   <children>
+      <Button fx:id="home" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#home2Click" text="Home" />
+      <TextArea fx:id="instruct" layoutX="14.0" layoutY="58.0" prefHeight="46.0" prefWidth="403.0" text="These are 6 common foods.&#10;Click on one to view the Calories and Macronutrients that it carries." />
+      <Button fx:id="pizza" layoutX="17.0" layoutY="152.0" mnemonicParsing="false" onAction="#pizzaClick" prefHeight="54.0" prefWidth="92.0" text="Pizza" />
+      <Button fx:id="burger" layoutX="172.0" layoutY="152.0" mnemonicParsing="false" onAction="#burgerClick" prefHeight="54.0" prefWidth="92.0" text="Hamburger" />
+      <Button fx:id="spaghetti" layoutX="324.0" layoutY="152.0" mnemonicParsing="false" onAction="#spaghettiClick" prefHeight="54.0" prefWidth="92.0" text="Spaghetti" />
+      <Button fx:id="salad" layoutX="17.0" layoutY="276.0" mnemonicParsing="false" onAction="#saladClick" prefHeight="54.0" prefWidth="92.0" text="Fruit Salad" />
+      <Button fx:id="tortilla" layoutX="172.0" layoutY="276.0" mnemonicParsing="false" onAction="#tortillaClick" prefHeight="54.0" prefWidth="92.0" text="Tortilla" />
+      <Button fx:id="egg" layoutX="324.0" layoutY="276.0" mnemonicParsing="false" onAction="#eggClick" prefHeight="54.0" prefWidth="92.0" text="Boiled Egg" />
+   </children>
+</AnchorPane>
